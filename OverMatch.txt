@@ -1,0 +1,56 @@
+Title Slide:
+
+Title: Understanding Informatica MDM Overmatch and Undermatch Issues
+Subtitle: Strategies for Effective Data Management
+Introduction to Informatica MDM:
+
+Informatica MDM (Master Data Management) is a comprehensive approach to enable organizations to link all critical data to a single master file, providing a common point of reference.
+Example: A multinational corporation uses Informatica MDM to manage customer data across various departments and regions, ensuring consistency and accuracy.
+What are Overmatch and Undermatch?
+
+Overmatch occurs when disparate records are incorrectly merged into a single entity, leading to data loss and inaccuracies.
+Undermatch refers to the failure to identify and link related records, resulting in duplicate entries and fragmented data.
+Example: In a healthcare organization, overmatch could merge patient records with similar but distinct names, leading to incorrect medical histories. Undermatch might result in duplicate patient entries across different hospital branches.
+Causes of Overmatch and Undermatch:
+
+Data quality issues such as incomplete or inconsistent data entry.
+Lack of standardization in data formats and values across systems.
+Duplicates present in source systems due to legacy data migrations.
+Example: In a retail company, overmatch could occur due to variations in product naming conventions, while undermatch might result from incomplete address information leading to multiple customer profiles for the same individual.
+Challenges in Identifying Overmatch and Undermatch:
+
+Large volumes of data across disparate systems make it challenging to maintain data consistency.
+Complex data relationships make it difficult to accurately identify matching records.
+Example: A financial institution struggles with identifying overmatch and undermatch issues across multiple databases housing customer information, resulting in discrepancies in account balances and customer profiles.
+Consequences of Overmatch and Undermatch:
+
+Erroneous analytics and reporting can lead to flawed business decisions.
+Loss of customer trust due to inaccuracies in personal data and interactions.
+Compliance and regulatory risks due to incorrect data handling.
+Example: A telecommunications company faces regulatory penalties due to undermatch issues leading to incomplete customer identity verification processes, violating data protection regulations.
+Strategies for Resolving Overmatch and Undermatch:
+
+Data Profiling and Cleansing:
+Example: Implementing Informatica's data quality tools to cleanse and standardize customer address data, reducing undermatch issues caused by variations in address formats.
+Matching and Deduplication:
+Example: Configuring Informatica MDM's matching rules to accurately identify duplicate customer records based on attributes such as name, address, and phone number.
+Data Governance:
+Example: Establishing a data stewardship program to review and resolve ambiguous match results, ensuring data integrity and accuracy.
+Continuous Improvement:
+Example: Conducting regular data quality audits and soliciting feedback from end-users to refine matching algorithms and improve data accuracy over time.
+Case Studies:
+
+Example: A global insurance company reduced undermatch issues by 30% and improved customer satisfaction scores by implementing Informatica MDM's data quality and matching capabilities.
+Best Practices for Preventing Overmatch and Undermatch:
+
+Example: Standardizing data entry processes and providing training to employees to ensure consistent and accurate data input.
+Example: Implementing data governance policies to enforce data quality standards and monitor compliance across the organization.
+Conclusion:
+
+Emphasize the importance of proactive data management in mitigating overmatch and undermatch issues to ensure accurate decision-making and regulatory compliance.
+Q&A:
+
+Encourage participants to ask questions and engage in discussion to deepen their understanding of Informatica MDM's overmatch and undermatch challenges and solutions.
+References:
+
+Provide a list of sources and recommended readings for further exploration of Informatica MDM and data management best practices.
